@@ -1,0 +1,70 @@
+#header {
+    padding: 4rem 4rem;
+    text-align: right;
+    color: turquoise;
+    font-weight: 900;
+}
+body {
+    padding: 1rem 4rem;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+}
+section > div {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+form {
+  margin-top: 50px;
+}
+
+dl {
+  padding: 15px 10px;
+}
+
+dl > li {
+  list-style: none;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+}
+
+dl:nth-of-type(even) {
+  background-color: WhiteSmoke;
+}
+@media (min-width: 700px) {
+  section > div {
+    width: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  section > div {
+    float: left;
+    margin: 80px 50%;
+    width: 40%;
+  }
+
+  section::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+#go {
+    color: red;
+}
+#demo {
+    color: grey;
+    font-size:40px;
+    background-color:tan;
+}
+#type {
+    font-size: 25px;
+}
+
+
+

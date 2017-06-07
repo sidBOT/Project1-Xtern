@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="header">My Bucket List</h1>
+        <section>
+            <div>
+                <form id="personForm">
+                    <p>
+                        <label for="list" id="type"><b>Type In</b></label>
+                        <input type="text" name="list">
+                    </p>
+                    <input type='button' onclick="deleteCheckBox()" value='Delete' id="del"/>
+                    <button type="submit" id="go"><img src="b1.png" height="65" width="55"/></button>
+                    <p>
+                        <ul id="demo"></ul>
+                    </p>
+                </form>
+            </div>
+
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
